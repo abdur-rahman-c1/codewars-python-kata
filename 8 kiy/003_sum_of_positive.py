@@ -25,5 +25,3 @@ def positive_sum(arr: list):
 
 print(positive_sum([1, -4, 7, 12]))
 
-def positive_sum(arr: list):
-    return sum(i for i in arr if i > 0)
