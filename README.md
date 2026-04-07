@@ -1,0 +1,1 @@
+# Daily Single CodeWars challenge
