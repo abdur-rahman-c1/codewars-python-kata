@@ -4,9 +4,6 @@ Description: This code does not execute properly. Try to figure out why.
 """
 
 
-#Problem:
-def multiply(a, b):
-     a * b
 
 
 # solution:

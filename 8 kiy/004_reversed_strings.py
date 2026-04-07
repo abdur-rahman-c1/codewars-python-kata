@@ -10,11 +10,11 @@ Complete the solution so that it reverses the string passed into it.
 """
 
 # solution 1:
-def solution(string: str):
+def solution1(string: str):
     return string[::-1]  # uses string slice while keeping everything at default including start and stop. only the step is told to be in a reverse order. 
 
 # solution 2:
-def solution(string: str):
+def solution2(string: str):
     return ''.join(reversed(string))
 
 # reversed returns an iterator version of the given string in reverse order

@@ -14,12 +14,12 @@ Examples (input --> output):
 
 """
 # Solution 1
-def number_to_string(num):
+def number_to_string1(num):
     return str(num)
 
 # Solution 2
-def number_to_string(num):
+def number_to_string2(num):
     return f"{num}"
 
 
-print(number_to_string(55))
+print(number_to_string1(55))
