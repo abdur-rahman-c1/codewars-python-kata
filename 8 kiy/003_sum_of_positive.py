@@ -13,3 +13,14 @@ If there is nothing to sum, the sum is default to 0.
 
 
 """
+
+def positive_sum(arr: list):
+    sum = 0
+    for i in arr:
+        if i < 0:
+            continue
+        sum = sum + i
+    return sum
+
+
+print(positive_sum([1, -4, 7, 12]))
