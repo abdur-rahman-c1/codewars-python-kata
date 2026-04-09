@@ -10,3 +10,22 @@ For example (Input -> Output):
 
 """
 
+def summation(num):
+    sum = 0
+    for i in range(num + 1):
+        sum += i
+        print(i)
+    return sum
+
+def summation_v2(num: int):
+    return sum(i for i in range(num + 1))
+    
+def summation_v3(num: int):
+    return num * (num + 1) // 2
+
+def summation_v4(num):
+    return sum(range(1, num + 1))
+
+
+
+
