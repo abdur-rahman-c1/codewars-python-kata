@@ -19,3 +19,8 @@ def are_you_playing_banjo(name: str):
     
 print(are_you_playing_banjo("rafi"))
 
+def are_you_playing_banjo_v2(name: str):
+    if name.lower().startswith("r"):
+        return f"{name} plays banjo"
+    else:
+        return f"{name} does not play banjo"
