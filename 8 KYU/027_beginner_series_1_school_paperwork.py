@@ -11,4 +11,8 @@ Waiting for translations and Feedback! Thanks!
 """
 
 def paperwork(n, m):
-    return 
+    
+    if n < 0 or m < 0:
+        return 0
+    
+    return n * m
